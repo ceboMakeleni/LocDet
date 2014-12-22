@@ -37,5 +37,7 @@
 /home/cebo/Desktop/PhonegapApps/locdet/platforms/android/assets/www/cordova_plugins.js \
 /home/cebo/Desktop/PhonegapApps/locdet/platforms/android/assets/www/js/index.js \
 /home/cebo/Desktop/PhonegapApps/locdet/platforms/android/assets/www/css/index.css \
+/home/cebo/Desktop/PhonegapApps/locdet/platforms/android/assets/www/img/locdet_logo_sm.png \
 /home/cebo/Desktop/PhonegapApps/locdet/platforms/android/assets/www/img/logo.png \
+/home/cebo/Desktop/PhonegapApps/locdet/platforms/android/assets/www/img/locdet_logo_xs.png \
 /home/cebo/Desktop/PhonegapApps/locdet/platforms/android/ant-build/AndroidManifest.xml \

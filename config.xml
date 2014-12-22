@@ -1,12 +1,63 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.upstudents.locdet" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.upstudents.locdet" version="0.0.1" android-versionCode="19" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>LocDet</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        A location determining application that allows a user to specify issues associated with that location. Issues are then reported to a central point accessible by management and maintenance.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="cebomakeleni@gmail.com" href="http://cebomakeleni.co.za">
+        UP Students
     </author>
     <content src="index.html" />
     <access origin="*" />
+
+    <!--**************************************** Global Preferences *********************************************-->
+    
+    <!-- Allows you to hide the status bar at the top of the screen -->
+    <preference name="Fullscreen" value="true"/>
+
+    <!-- Specifies orientation -->
+    <preference name="Orientation" value="default"/>
+
+    <!--************************************* End of Global Preferences  **************************************-->
+
+
+    <!--************************************ Multi-Platform Preferences ***************************************-->
+
+    <!-- Determines if overscrolling effect should be produced when end of content is reached(false means yes) -->
+    <preference name="DisallowOverscroll" value="true"/>
+
+    <!--********************************** End of Multi-Platform Preferences **********************************-->
+
+
+    <!--************************************* Android Specific settings *******************************************-->
+
+    <!-- Determines whether the application keeps running in the background after a pause event fires  -->
+    <preference name="KeepRunning" value="true"/>
+
+    <!-- Controls whether pages opened within an InAppBrowser can access the same localStorage and WebSQL storage as pages opened with the default browser -->
+    <preference name="InAppBrowserStorageEnabled" value="True"/>
+
+    <!-- Gives the location of the splash screen for the application -->
+    <preference name="SplashScreen" value="someSplashScreenImageInResDrawableDirectoryWithoutExtension"/>
+
+    <!-- The amount of time the splash screen displays -->
+    <preference name="SplashScreenDelay" value="3000"/>
+
+    <!-- Displays dialog with title, message and spinner when loading first page of an application-->
+    <preference name="LoadingDialog" value="Please wait, loading main page..."/>
+
+    <!-- Same as above, but for loading every page after first page in application -->
+    <preference name="LoadingPageDialog" value="Please wait, still loading..."/>
+
+    <!-- Displays referenced page upon an error instead of a dialog with the title 'Application Error' -->
+    <!--preference name="ErrorUrl" value="someErrorPageIHaveToMake.html"-->
+
+    <!-- Show the title at the top of the page -->
+    <preference name="ShowTitle" value="true"/>
+
+    <!-- Sets the minimum log level through which log messages are are filltered -->
+    <preference name="LogLevel" value="VERBOSE"/>
+
+    <!-- ************************************* End of Android Specific settings ***************************************-->
+    
 </widget>
